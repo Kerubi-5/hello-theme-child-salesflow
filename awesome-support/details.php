@@ -187,4 +187,14 @@ $author = get_user_by( 'id', $post->post_author );
   [data-elementor-type="header"] {
     display: none;
   }
+  #content {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 24px;
+  }
+  .entry-title {
+    max-width: 100% !important;
+    padding: 0;
+    padding-bottom: 0.5rem;
+  }
 </style>
