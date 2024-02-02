@@ -48,7 +48,7 @@ $author = get_user_by( 'id', $post->post_author );
 					</div>
 				</td>
 
-				<td style="width: 100%;">
+				<td style="width: calc(100% - 64px);">
 					<div class="wpas-reply-meta">
 						<div class="wpas-reply-user">
 							<strong class="wpas-profilename"><?php echo apply_filters('wpas_fe_template_detail_author_display_name', $author->data->display_name, $post ); ?></strong>
