@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Ticket Details Template.
@@ -172,3 +173,18 @@ $author = get_user_by( 'id', $post->post_author );
 	 } ?>
 
 </div>
+
+<style>
+  .wpas-table.wpas-ticket-replies tbody tr:first-child {
+    display: none;
+  }
+  #wpas_files_wrapper {
+    display: none;
+  }
+  .checkbox {
+    display: none;
+  }
+  [data-elementor-type="header"] {
+    display: none;
+  }
+</style>
