@@ -183,12 +183,18 @@ $author = get_user_by('id', $post->post_author);
 
 	#wpas_files_wrapper {
 		display: grid;
-		grid-template-columns: auto 1fr;
+		grid-template-columns: auto minmax(0, 1fr);
+		/* First column adjusts to content, second column's width is dynamic with a minimum of 0 */
 		grid-template-rows: auto auto;
 		gap: 0.5rem 1rem;
 		align-items: center;
 		margin: 0.75rem 0;
 	}
+
+	p.wpas-help-block  {
+		display: none !importantA;
+	}
+
 
 	.checkbox {
 		display: none;
