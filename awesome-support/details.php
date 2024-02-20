@@ -182,7 +182,12 @@ $author = get_user_by('id', $post->post_author);
 	}
 
 	#wpas_files_wrapper {
-		display: none;
+		display: grid;
+		grid-template-columns: auto 1fr;
+		grid-template-rows: auto auto;
+		gap: 0.5rem 1rem;
+		align-items: center;
+		margin: 0.75rem 0;
 	}
 
 	.checkbox {
